@@ -1,0 +1,138 @@
+/* Set a more contrasting background color for the navbar */
+.navbar {
+  background-color: #1d3557;
+  position: relative;
+  height: 80px; /* Increase the height of the navbar for better visibility */
+}
+
+/* Center the logo image vertically and horizontally */
+img {
+  display: block;
+  margin: auto;
+  height: 50px; /* Reduce the size of the logo for better fit */
+}
+
+/* Add some spacing between the navbar and the content */
+body {
+  margin: 80px 0 0 0;
+  padding: 0;
+}
+
+/* Make the navbar brand text more visible */
+.navbar-brand {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 20px; /* Add some spacing to the right of the brand text */
+}
+
+/* Add some animation to the navbar links */
+.navbar-nav > li > a {
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: color 0.3s ease; /* Smoothly transition the link color on hover */
+}
+
+.navbar-nav > li > a:hover {
+  color: #f1faee; /* Change the link color to a brighter shade on hover */
+}
+
+/* Change the active link color to match the hover color */
+.navbar-nav > .active > a {
+  color: #f1faee;
+}
+
+/* Add a dropdown menu with some padding and border radius */
+.dropdown-menu {
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #f1faee; /* Set the background color of the dropdown menu */
+}
+
+/* Add a hover effect to the dropdown items */
+.dropdown-menu > li > a:hover {
+  background-color: #a8dadc; /* Change the background color of the dropdown item on hover */
+}
+
+/* Style the button in a different color */
+.button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #e63946; /* Use a contrasting color for the button */
+}
+
+/* Add some margin to the list items */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 10px 20px;
+}
+    
+
+form {
+    width: 40%;
+    margin: auto;
+    border: 1px solid #257557a4;
+    box-shadow: 2px 2px 5px rgba(35, 109, 78, 0.363);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
